@@ -9,3 +9,4 @@ script:
   - ls
   - mkdir djlksajdlksa
   - ls
+  - git log
