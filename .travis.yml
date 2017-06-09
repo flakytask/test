@@ -1,4 +1,3 @@
-language: go
 
 script:
   - git branch
