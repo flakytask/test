@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> d9af839fdbfb671b129e99381c54e436f475e616
 script:
   - git branch
   - ls
