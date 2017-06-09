@@ -9,4 +9,5 @@ script:
   - ls
   - mkdir djlksajdlksa
   - ls
-  - git log
+  - diff -u <(git rev-list --first-parent a)              <(git rev-list --first-parent master) |      sed -ne 's/^ //p' | head -1 | xargs git reset --hard
+  - ls
