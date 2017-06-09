@@ -1,8 +1,11 @@
 script:
   - git branch
   - ls
+  - mkdir asd
+  - ls
   - git checkout master
   - ls
   - git checkout a
   - ls
   - mkdir djlksajdlksa
+  - ls
